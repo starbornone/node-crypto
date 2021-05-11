@@ -7,7 +7,7 @@ const router = express.Router();
  * @access        Public
  */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Livnium' });
+  res.render('index', { title: 'node-crypto' });
 });
 
 /**
